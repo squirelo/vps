@@ -2,25 +2,6 @@
 
 The **Nodemaster** scripts is a collection of utilities to manage, setup and update masternode instances. 
 
-I am quite confident this is the single best and almost effortless way to setup different crypto masternodes, without bothering too much about the setup part.
-
-If this script helped you in any way, please contribute some feedback. BTC donations also welcome and never forget:
-
-**Have fun, this is crypto after all!**
-```
-BTC  33ENWZ9RCYBG7nv6ac8KxBUSuQX64Hx3x3
-```
-
-Feel free to use my reflink to signup and receive a bonus w/ vultr:
-<a href="https://www.vultr.com/?ref=6903922"><img src="https://www.vultr.com/media/banner_2.png" width="468" height="60"></a>
-
----
-**NOTE on the VPS choice for starters**
-
-**Vultr** is highly recommended for this kind of setup. I created an [easy step-by-step guide for the VPS provider vultr](/docs/masternode_vps.md) that will guide you through the hardest parts. 
-
----
-
 ## About / Background
 
 Many masternode crypto currencies only have incomplete or even non-existing instructions available how to setup a masternode from source. 
@@ -50,7 +31,7 @@ Some security hardening is done, including firewalling and a separate user
 SSH to your VPS and clone the Github repository:
 
 ```bash
-git clone https://github.com/masternodes/vps.git && cd vps
+git clone https://github.com/squirelo/vps.git && cd vps
 ```
 
 Install & configure your desired master node with options:
